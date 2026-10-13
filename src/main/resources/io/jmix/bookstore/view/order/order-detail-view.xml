@@ -25,11 +25,6 @@
             expand="contentBox">
 
         <vbox id="contentBox" classNames="overflow-auto" expand="dataGridWrapper">
-            <details id="orderDetailDemoInfo" summaryText="msg://io.jmix.bookstore/demoInfo" themeNames="demo-info"
-                     width="100%">
-                <html content="msg://orderDetailView.demoInfo"/>
-            </details>
-
             <gridLayout width="100%" gap="var(--lumo-space-m)" columnMinWidth="25rem">
                 <vbox classNames="contrast-panel">
                     <h5 text="msg://io.jmix.bookstore.order.entity/Order.customer"/>

@@ -28,11 +28,6 @@
             expand="contentBox">
 
         <vbox id="contentBox" classNames="overflow-auto">
-            <details id="customerDetailDemoInfo" summaryText="msg://io.jmix.bookstore/demoInfo" themeNames="demo-info"
-                     width="100%">
-                <html content="msg://customerDetailView.demoInfo"/>
-            </details>
-
             <gridLayout width="100%" gap="var(--lumo-space-m)" columnMinWidth="25rem">
                 <vbox classNames="contrast-panel">
                     <h5 text="msg://personalInformation"/>

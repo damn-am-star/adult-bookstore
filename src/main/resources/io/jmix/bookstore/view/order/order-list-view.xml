@@ -68,10 +68,6 @@
         <action id="discardAction" type="lookup_discard"/>
     </actions>
     <layout>
-        <details id="orderListDemoInfo" summaryText="msg://io.jmix.bookstore/demoInfo" themeNames="demo-info"
-                 width="100%">
-            <html content="msg://orderListView.demoInfo"/>
-        </details>
         <tabSheet id="orderListTabSheet" width="100%" height="100%">
             <tab id="newOrdersTab" label="msg://newOrders">
                 <vbox height="100%" padding="false">
