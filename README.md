@@ -8,7 +8,7 @@ Jmix Bookstore is a comprehensive example application built with [Jmix](https://
 
 ![Jmix Bookstore - Overview](img/1-overview.png)
 
-The online demo of the Jmix Bookstore is available at <https://demo.jmix.io/bookstore>.
+See the sections below for information about running the Jmix Bookstore locally.
 
 ### Table of Content
 
@@ -453,7 +453,7 @@ See the following classes that represent the described behaviour:
 
 ### Multitenancy
 
-In the Bookstore example, the [Multitenancy add-on](https://www.jmix.io/marketplace/multitenancy/) is used to provide the different users ephemeral test environments of the bookstore. This is mainly used for the hosted version at [https://demo.jmix.io/bookstore](https://demo.jmix.io/bookstore) to prevent cluttered test data from various users when trying out the bookstore online demo. In this application, the Multitenancy add-on is used as follows:
+In the Bookstore example, the [Multitenancy add-on](https://www.jmix.io/marketplace/multitenancy/) is used to provide different users with ephemeral test environments. This is useful for hosted deployments because it prevents test data from different users from becoming mixed. In this application, the Multitenancy add-on is used as follows:
 
 All business entities (Customer, Order, Product, etc.) have the `tenant` attribute annotated with `@TenantId` through the `StandardTenantEntity` superclass.
 
