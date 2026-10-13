@@ -28,9 +28,6 @@
         <action id="discardAction" type="lookup_discard"/>
     </actions>
     <layout>
-        <details summaryText="msg://io.jmix.bookstore/demoInfo" themeNames="demo-info" width="100%">
-            <html content="msg://supplierListView.demoInfo"/>
-        </details>
         <genericFilter id="genericFilter"
                        dataLoader="suppliersDl">
             <properties include=".*"/>
