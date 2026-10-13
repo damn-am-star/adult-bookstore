@@ -3,7 +3,6 @@
 @import "app/possible-users.css";
 @import "app/misc.css";
 @import "component/button.css";
-@import "component/details.css";
 
 html {
     --turquoise: #4ccfe1;
